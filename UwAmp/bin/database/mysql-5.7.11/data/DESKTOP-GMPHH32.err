@@ -1,0 +1,251 @@
+2020-02-14T08:50:41.373004Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-02-14T08:50:41.373004Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2020-02-14T08:50:41.373004Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2020-02-14T08:50:41.373004Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2020-02-14T08:50:41.373004Z 0 [Note] D:\PC Asus Vecchio\Archivio\_ICD_\PPW\Campanelli-PPW_2018_2019\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 8808 ...
+2020-02-14T08:50:41.529249Z 0 [ERROR] Can't open shared library 'D:\PC Asus Vecchio\Archivio\_ICD_\PPW\Campanelli-PPW_2018_2019\UwAmp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Impossibile trovare il modulo specificato.)
+2020-02-14T08:50:41.544873Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2020-02-14T08:50:41.544873Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-02-14T08:50:41.560498Z 0 [Note] InnoDB: Uses event mutexes
+2020-02-14T08:50:41.560498Z 0 [Note] InnoDB: Memory barrier is not used
+2020-02-14T08:50:41.560498Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-02-14T08:50:41.560498Z 0 [Note] InnoDB: Number of pools: 1
+2020-02-14T08:50:41.560498Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2020-02-14T08:50:41.747992Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-02-14T08:50:41.779241Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-02-14T08:50:41.997985Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-02-14T08:50:42.982330Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-02-14T08:50:42.982330Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-02-14T08:50:42.982330Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-02-14T08:50:42.997953Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\utassistantdb\answers.ibd' OS error: 103
+2020-02-14T08:50:42.997953Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-02-14T08:50:42.997953Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2020-02-14T08:50:43.013578Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `utassistantdb/answers`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-02-14T08:50:43.013578Z 0 [Warning] InnoDB: Ignoring tablespace `utassistantdb/answers` because it could not be opened.
+2020-02-14T08:50:43.029202Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-02-14T08:50:43.029202Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-02-14T08:50:43.029202Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-02-14T08:50:43.044826Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\utassistantdb\failed_jobs.ibd' OS error: 103
+2020-02-14T08:50:43.044826Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-02-14T08:50:43.044826Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2020-02-14T08:50:43.060451Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `utassistantdb/failed_jobs`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-02-14T08:50:43.060451Z 0 [Warning] InnoDB: Ignoring tablespace `utassistantdb/failed_jobs` because it could not be opened.
+2020-02-14T08:50:43.060451Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-02-14T08:50:43.076075Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-02-14T08:50:43.076075Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-02-14T08:50:43.076075Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\utassistantdb\jobs.ibd' OS error: 103
+2020-02-14T08:50:43.091701Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-02-14T08:50:43.091701Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2020-02-14T08:50:43.091701Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `utassistantdb/jobs`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-02-14T08:50:43.107326Z 0 [Warning] InnoDB: Ignoring tablespace `utassistantdb/jobs` because it could not be opened.
+2020-02-14T08:50:43.107326Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-02-14T08:50:43.122949Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-02-14T08:50:43.122949Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-02-14T08:50:43.122949Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\utassistantdb\medias.ibd' OS error: 103
+2020-02-14T08:50:43.122949Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-02-14T08:50:43.138573Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2020-02-14T08:50:43.138573Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `utassistantdb/medias`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-02-14T08:50:43.138573Z 0 [Warning] InnoDB: Ignoring tablespace `utassistantdb/medias` because it could not be opened.
+2020-02-14T08:50:43.154197Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-02-14T08:50:43.154197Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-02-14T08:50:43.154197Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-02-14T08:50:43.169822Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\utassistantdb\migrations.ibd' OS error: 103
+2020-02-14T08:50:43.169822Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-02-14T08:50:43.169822Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2020-02-14T08:50:43.169822Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `utassistantdb/migrations`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-02-14T08:50:43.185447Z 0 [Warning] InnoDB: Ignoring tablespace `utassistantdb/migrations` because it could not be opened.
+2020-02-14T08:50:43.185447Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-02-14T08:50:43.185447Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-02-14T08:50:43.201071Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-02-14T08:50:43.201071Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\utassistantdb\password_resets.ibd' OS error: 103
+2020-02-14T08:50:43.201071Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-02-14T08:50:43.201071Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2020-02-14T08:50:43.216696Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `utassistantdb/password_resets`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-02-14T08:50:43.216696Z 0 [Warning] InnoDB: Ignoring tablespace `utassistantdb/password_resets` because it could not be opened.
+2020-02-14T08:50:43.232320Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-02-14T08:50:43.232320Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-02-14T08:50:43.232320Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-02-14T08:50:43.232320Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\utassistantdb\questionaries.ibd' OS error: 103
+2020-02-14T08:50:43.247945Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-02-14T08:50:43.247945Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2020-02-14T08:50:43.247945Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `utassistantdb/questionaries`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-02-14T08:50:43.263569Z 0 [Warning] InnoDB: Ignoring tablespace `utassistantdb/questionaries` because it could not be opened.
+2020-02-14T08:50:43.263569Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-02-14T08:50:43.263569Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-02-14T08:50:43.279193Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-02-14T08:50:43.279193Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\utassistantdb\questionaries_attrakdiff.ibd' OS error: 103
+2020-02-14T08:50:43.279193Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-02-14T08:50:43.294818Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2020-02-14T08:50:43.294818Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `utassistantdb/questionaries_attrakdiff`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-02-14T08:50:43.310442Z 0 [Warning] InnoDB: Ignoring tablespace `utassistantdb/questionaries_attrakdiff` because it could not be opened.
+2020-02-14T08:50:43.310442Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-02-14T08:50:43.310442Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-02-14T08:50:43.310442Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-02-14T08:50:43.326068Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\utassistantdb\questionaries_nasatlx.ibd' OS error: 103
+2020-02-14T08:50:43.326068Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-02-14T08:50:43.326068Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2020-02-14T08:50:43.326068Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `utassistantdb/questionaries_nasatlx`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-02-14T08:50:43.341692Z 0 [Warning] InnoDB: Ignoring tablespace `utassistantdb/questionaries_nasatlx` because it could not be opened.
+2020-02-14T08:50:43.341692Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-02-14T08:50:43.341692Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-02-14T08:50:43.341692Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-02-14T08:50:43.357317Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\utassistantdb\questionaries_nps.ibd' OS error: 103
+2020-02-14T08:50:43.357317Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-02-14T08:50:43.357317Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2020-02-14T08:50:43.372941Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `utassistantdb/questionaries_nps`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-02-14T08:50:43.372941Z 0 [Warning] InnoDB: Ignoring tablespace `utassistantdb/questionaries_nps` because it could not be opened.
+2020-02-14T08:50:43.372941Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-02-14T08:50:43.388565Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-02-14T08:50:43.388565Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-02-14T08:50:43.388565Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\utassistantdb\questionaries_sus.ibd' OS error: 103
+2020-02-14T08:50:43.388565Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-02-14T08:50:43.404190Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2020-02-14T08:50:43.404190Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `utassistantdb/questionaries_sus`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-02-14T08:50:43.404190Z 0 [Warning] InnoDB: Ignoring tablespace `utassistantdb/questionaries_sus` because it could not be opened.
+2020-02-14T08:50:43.419814Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-02-14T08:50:43.419814Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-02-14T08:50:43.419814Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-02-14T08:50:43.435439Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\utassistantdb\questionaries_umux.ibd' OS error: 103
+2020-02-14T08:50:43.435439Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-02-14T08:50:43.435439Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2020-02-14T08:50:43.451063Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `utassistantdb/questionaries_umux`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-02-14T08:50:43.451063Z 0 [Warning] InnoDB: Ignoring tablespace `utassistantdb/questionaries_umux` because it could not be opened.
+2020-02-14T08:50:43.451063Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-02-14T08:50:43.466689Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-02-14T08:50:43.466689Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-02-14T08:50:43.466689Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\utassistantdb\questionary_study.ibd' OS error: 103
+2020-02-14T08:50:43.482312Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-02-14T08:50:43.482312Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2020-02-14T08:50:43.482312Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `utassistantdb/questionary_study`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-02-14T08:50:43.497938Z 0 [Warning] InnoDB: Ignoring tablespace `utassistantdb/questionary_study` because it could not be opened.
+2020-02-14T08:50:43.497938Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-02-14T08:50:43.513561Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-02-14T08:50:43.513561Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-02-14T08:50:43.513561Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\utassistantdb\questions.ibd' OS error: 103
+2020-02-14T08:50:43.529186Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-02-14T08:50:43.529186Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2020-02-14T08:50:43.529186Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `utassistantdb/questions`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-02-14T08:50:43.544811Z 0 [Warning] InnoDB: Ignoring tablespace `utassistantdb/questions` because it could not be opened.
+2020-02-14T08:50:43.544811Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-02-14T08:50:43.544811Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-02-14T08:50:43.544811Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-02-14T08:50:43.560435Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\utassistantdb\studies.ibd' OS error: 103
+2020-02-14T08:50:43.560435Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-02-14T08:50:43.560435Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2020-02-14T08:50:43.576059Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `utassistantdb/studies`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-02-14T08:50:43.576059Z 0 [Warning] InnoDB: Ignoring tablespace `utassistantdb/studies` because it could not be opened.
+2020-02-14T08:50:43.576059Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-02-14T08:50:43.591684Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-02-14T08:50:43.591684Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-02-14T08:50:43.591684Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\utassistantdb\study_user.ibd' OS error: 103
+2020-02-14T08:50:43.591684Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-02-14T08:50:43.607308Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2020-02-14T08:50:43.607308Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `utassistantdb/study_user`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-02-14T08:50:43.622933Z 0 [Warning] InnoDB: Ignoring tablespace `utassistantdb/study_user` because it could not be opened.
+2020-02-14T08:50:43.622933Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-02-14T08:50:43.622933Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-02-14T08:50:43.622933Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-02-14T08:50:43.638558Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\utassistantdb\study_user_task.ibd' OS error: 103
+2020-02-14T08:50:43.638558Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-02-14T08:50:43.638558Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2020-02-14T08:50:43.638558Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `utassistantdb/study_user_task`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-02-14T08:50:43.654181Z 0 [Warning] InnoDB: Ignoring tablespace `utassistantdb/study_user_task` because it could not be opened.
+2020-02-14T08:50:43.654181Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-02-14T08:50:43.654181Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-02-14T08:50:43.669806Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-02-14T08:50:43.669806Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\utassistantdb\tasks.ibd' OS error: 103
+2020-02-14T08:50:43.685431Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-02-14T08:50:43.685431Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2020-02-14T08:50:43.685431Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `utassistantdb/tasks`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-02-14T08:50:43.701056Z 0 [Warning] InnoDB: Ignoring tablespace `utassistantdb/tasks` because it could not be opened.
+2020-02-14T08:50:43.701056Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-02-14T08:50:43.701056Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-02-14T08:50:43.716680Z 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-02-14T08:50:43.716680Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\utassistantdb\users.ibd' OS error: 103
+2020-02-14T08:50:43.716680Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-02-14T08:50:43.732304Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2020-02-14T08:50:43.732304Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `utassistantdb/users`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-02-14T08:50:43.732304Z 0 [Warning] InnoDB: Ignoring tablespace `utassistantdb/users` because it could not be opened.
+2020-02-14T08:50:43.747929Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-02-14T08:50:43.747929Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-02-14T08:50:44.326038Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2020-02-14T08:50:44.326038Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-02-14T08:50:44.341660Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-02-14T08:50:44.341660Z 0 [Note] InnoDB: Waiting for purge to start
+2020-02-14T08:50:44.451032Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 4455269
+2020-02-14T08:50:44.451032Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-02-14T08:50:44.451032Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\PC Asus Vecchio\Archivio\_ICD_\PPW\Campanelli-PPW_2018_2019\UwAmp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2020-02-14T08:50:44.654150Z 0 [ERROR] InnoDB: Failed to find tablespace for table `utassistantdb`.`study_user_task` in the cache. Attempting to load the tablespace with space id 105
+2020-02-14T08:50:44.654150Z 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-02-14T08:50:44.654150Z 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-02-14T08:50:44.669775Z 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\utassistantdb\study_user_task.ibd' OS error: 103
+2020-02-14T08:50:44.669775Z 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-02-14T08:50:44.669775Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2020-02-14T08:50:44.685400Z 0 [ERROR] InnoDB: Could not find a valid tablespace file for `utassistantdb/study_user_task`. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-02-14T08:50:44.810396Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2020-02-14T08:50:44.826020Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2020-02-14T08:50:44.826020Z 0 [Note] IPv6 is available.
+2020-02-14T08:50:44.841645Z 0 [Note]   - '::' resolves to '::';
+2020-02-14T08:50:44.841645Z 0 [Note] Server socket created on IP: '::'.
+2020-02-14T08:50:45.950986Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200214  9:50:45
+2020-02-14T08:50:46.529092Z 0 [Note] Event Scheduler: Loaded 0 events
+2020-02-14T08:50:46.529092Z 0 [Note] D:\PC Asus Vecchio\Archivio\_ICD_\PPW\Campanelli-PPW_2018_2019\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2020-02-14T09:08:33.546442Z 0 [Note] D:\PC Asus Vecchio\Archivio\_ICD_\PPW\Campanelli-PPW_2018_2019\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2020-02-14T09:08:33.554440Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2020-02-14T09:08:33.557435Z 0 [Note] Shutting down slave threads
+2020-02-14T09:08:33.566429Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2020-02-14T09:08:33.570427Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2020-02-14T09:08:33.571427Z 0 [Note] Binlog end
+2020-02-14T09:08:33.585860Z 0 [Note] Shutting down plugin 'ngram'
+2020-02-14T09:08:33.596887Z 0 [Note] Shutting down plugin 'partition'
+2020-02-14T09:08:33.597866Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2020-02-14T09:08:33.598870Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2020-02-14T09:08:33.599869Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2020-02-14T09:08:33.606264Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2020-02-14T09:08:33.621797Z 0 [Note] Shutting down plugin 'MyISAM'
+2020-02-14T09:08:33.622805Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2020-02-14T09:08:33.625815Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2020-02-14T09:08:33.626804Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2020-02-14T09:08:33.628798Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2020-02-14T09:08:33.629802Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2020-02-14T09:08:33.631801Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2020-02-14T09:08:33.632800Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2020-02-14T09:08:33.634796Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2020-02-14T09:08:33.635794Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2020-02-14T09:08:33.637795Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2020-02-14T09:08:33.639792Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2020-02-14T09:08:33.640793Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2020-02-14T09:08:33.642794Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2020-02-14T09:08:33.643793Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2020-02-14T09:08:33.644793Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2020-02-14T09:08:33.646787Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2020-02-14T09:08:33.647790Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2020-02-14T09:08:33.649788Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2020-02-14T09:08:33.650787Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2020-02-14T09:08:33.651787Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2020-02-14T09:08:33.653785Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2020-02-14T09:08:33.654785Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2020-02-14T09:08:33.656783Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2020-02-14T09:08:33.657783Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2020-02-14T09:08:33.658782Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2020-02-14T09:08:33.661047Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2020-02-14T09:08:33.661047Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2020-02-14T09:08:33.661047Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2020-02-14T09:08:33.661047Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2020-02-14T09:08:33.661047Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2020-02-14T09:08:33.661047Z 0 [Note] Shutting down plugin 'InnoDB'
+2020-02-14T09:08:33.661047Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-02-14T09:08:33.661047Z 0 [Note] InnoDB: Starting shutdown...
+2020-02-14T09:08:33.773353Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\PC Asus Vecchio\Archivio\_ICD_\PPW\Campanelli-PPW_2018_2019\UwAmp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2020-02-14T09:08:33.802885Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 200214 10:08:33
+2020-02-14T09:08:34.696065Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4456555
+2020-02-14T09:08:34.727314Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-02-14T09:08:34.727314Z 0 [Note] Shutting down plugin 'MEMORY'
+2020-02-14T09:08:34.727314Z 0 [Note] Shutting down plugin 'CSV'
+2020-02-14T09:08:34.727314Z 0 [Note] Shutting down plugin 'sha256_password'
+2020-02-14T09:08:34.727314Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2020-02-14T09:08:34.727314Z 0 [Note] Shutting down plugin 'binlog'
+2020-02-14T09:08:34.758565Z 0 [Note] D:\PC Asus Vecchio\Archivio\_ICD_\PPW\Campanelli-PPW_2018_2019\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+

@@ -1,0 +1,15 @@
+phpMyAdmin:
+-username: root
+-password: root
+
+
+credenziali :
+-email: matteoluceri@msn.com
+-password: password
+
+
+-email: marcorossi@gmail.com
+-password: password
+
+-email: giuseppeverdi@gmail.com
+-password: password

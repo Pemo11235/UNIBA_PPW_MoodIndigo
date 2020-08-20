@@ -1,0 +1,40 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateAnalysisTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('analyses', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('nome_video',128);
+            $table->text('descrizione_video')->nullable();
+            $table->bigInteger('project_id')->unsigned()->nullable();
+            $table->foreign('project_id')
+                ->on('projects')
+                ->references('id')
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
+            $table->softDeletes();
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('analyses');
+    }
+}

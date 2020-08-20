@@ -1,0 +1,24 @@
+Migrating: 2020_02_22_180355_update_csv_column
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Call to a member function nullable() on null
+
+  at C:\Users\matte\Desktop\UwAmp\UwAmp\www\MoodIndigo\database\migrations\2020_02_22_180355_update_csv_column.php:17
+    13|      */
+    14|     public function up()
+    15|     {
+    16|         Schema::table('csv_emozioni', function (Blueprint $table) {
+  > 17|             $table->timestamps()->nullable();
+    18|         });
+    19|     }
+    20| 
+    21|     /**
+
+  Exception trace:
+
+  1   UpdateCsvColumn::{closure}(Object(Illuminate\Database\Schema\Blueprint))
+      C:\Users\matte\Desktop\UwAmp\UwAmp\www\MoodIndigo\vendor\laravel\framework\src\Illuminate\Database\Schema\Blueprint.php:83
+
+  2   Illuminate\Database\Schema\Blueprint::__construct("csv_emozioni", Object(Closure), "")
+      C:\Users\matte\Desktop\UwAmp\UwAmp\www\MoodIndigo\vendor\laravel\framework\src\Illuminate\Database\Schema\Builder.php:310
+
+  Please use the argument -v to see more details.
